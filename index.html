@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cuccu Cafe | Baliwag, Bulacan</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <i class="fa-solid fa-mug-hot logo-icon"></i>
+        <span>Cuccu Cafe</span>
+      </a>
+      
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About Us</a>
+        <a href="#menu" class="nav-link">What We Serve</a>
+        <a href="#events" class="nav-link">Events</a>
+        <a href="#careers" class="nav-link">Careers</a>
+        <a href="#contact" class="nav-link">Contact Us</a>
+        <a href="#contact" class="btn btn-nav">Visit Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <span class="badge"><i class="fa-solid fa-location-dot"></i> Baliwag, Bulacan</span>
+        <h1 class="hero-title">Warm Sips, Cozy Vibes & Artisanal Bakes</h1>
+        <p class="hero-desc">
+          Welcome to Cuccu Cafe. Your cozy neighborhood coffee sanctuary in Baliwag, serving handcrafted drinks, delicious bakes, and memorable community moments.
+        </p>
+        <div class="hero-actions">
+          <a href="#menu" class="btn btn-primary"><i class="fa-solid fa-utensils"></i> What We Serve</a>
+          <a href="#about" class="btn btn-secondary">About Us</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="hero-card-inner">
+          <img src="cuccu.jpg" alt="Cuccu Cafe Baliwag" class="hero-img" />
+          <div class="hero-floating-stat">
+            <i class="fa-solid fa-star"></i>
+            <div>
+              <strong>4.9 / 5.0</strong>
+              <p>Loved by Baliwag Locals</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">About Us</span>
+        <h2 class="section-title">Rooted in Baliwag, Brewed with Heart</h2>
+        <p class="section-subtitle">A welcoming space designed for quiet mornings, study sessions, and good conversations.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <h3>Your Neighborhood Cafe in Bulacan</h3>
+          <p>
+            Cuccu Cafe was created with a simple vision: to bring a cozy, warm, and comforting coffee experience right to the heart of Baliwag, Bulacan.
+          </p>
+          <p>
+            From our signature espresso drinks to freshly prepared snacks, every item on our menu is crafted with care using quality ingredients in a relaxing, earthy aesthetic.
+          </p>
+          <ul class="about-features">
+            <li><i class="fa-solid fa-check"></i> Quality coffee beans & handcrafted brews</li>
+            <li><i class="fa-solid fa-check"></i> Cozy aesthetic & comfortable seating</li>
+            <li><i class="fa-solid fa-check"></i> Student & worker-friendly environment</li>
+          </ul>
+        </div>
+        <div class="about-stats-grid">
+          <div class="stat-card">
+            <div class="stat-num">100%</div>
+            <div class="stat-label">Fresh Ingredients</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">15+</div>
+            <div class="stat-label">Signature Drinks</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">Baliwag</div>
+            <div class="stat-label">Bulacan Location</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">Cozy</div>
+            <div class="stat-label">Aesthetic Ambience</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What We Serve Section -->
+  <section id="menu" class="services-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What We Serve</span>
+        <h2 class="section-title">Handcrafted Coffee & Treats</h2>
+        <p class="section-subtitle">Explore a glimpse of our menu highlights prepared daily for you.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-mug-saucer"></i></div>
+          <h3>Coffee & Espresso</h3>
+          <p>Classic lattes, Americanos, and signature iced coffee creations tailored to your taste.</p>
+          <a href="#contact" class="card-link">View Details <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card highlight">
+          <div class="service-icon"><i class="fa-solid fa-leaf"></i></div>
+          <h3>Non-Coffee & Teas</h3>
+          <p>Creamy matchas, refreshing iced teas, and chocolate beverages perfect for any time of day.</p>
+          <a href="#contact" class="card-link">View Details <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-cookie"></i></div>
+          <h3>Fresh Bakes & Snacks</h3>
+          <p>Pastries, savory bites, and sweet treats freshly prepared to pair with your favorite drink.</p>
+          <a href="#contact" class="card-link">View Details <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Events Section -->
+  <section id="events" class="events-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Events & Gatherings</span>
+        <h2 class="section-title">Special Moments at Cuccu Cafe</h2>
+        <p class="section-subtitle">Host small gatherings, acoustic nights, or private cafe reservations with us.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-users"></i></div>
+          <h3>Private Gatherings</h3>
+          <p>Book our cozy space for intimate birthdays, workshops, or team meetings in Baliwag.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-music"></i></div>
+          <h3>Pop-Ups & Acoustic Nights</h3>
+          <p>Join us for community events, local artist showcases, and relaxed evening music sessions.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-camera"></i></div>
+          <h3>Photo Shoots</h3>
+          <p>Our earthy green decor and aesthetic corners make a great location for mini photo sessions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Careers Section -->
+  <section id="careers" class="careers-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Careers</span>
+        <h2 class="section-title">Join the Cuccu Team</h2>
+        <p class="section-subtitle">We are always looking for friendly and passionate individuals in Baliwag, Bulacan!</p>
+      </div>
+
+      <div class="careers-card">
+        <div class="careers-content">
+          <h3>Work With Us</h3>
+          <p>Interested in becoming a barista or part of our service team? We offer a friendly working environment and a passion for great hospitality.</p>
+          <div class="job-list">
+            <span class="job-badge"><i class="fa-solid fa-coffee"></i> Barista (Full-time / Part-time)</span>
+            <span class="job-badge"><i class="fa-solid fa-store"></i> Service Crew</span>
+          </div>
+        </div>
+        <div class="careers-action">
+          <a href="#contact" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i> Apply via Contact Form</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Us Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Contact Us</span>
+        <h2 class="section-title">Get in Touch</h2>
+        <p class="section-subtitle">Have questions or want to visit us in Baliwag, Bulacan? Reach out below!</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="info-item">
+            <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <h4>Location</h4>
+              <p>Baliwag, Bulacan, Philippines</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon"><i class="fa-solid fa-clock"></i></div>
+            <div>
+              <h4>Opening Hours</h4>
+              <p>Mon - Sun: 12:00 NN - 10:00 PM </p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <h4>Contact & Socials</h4>
+              <p>Email: cuccucafe.baliwag@gmail.com<br>FB / IG: @cuccucafeph</p>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" onsubmit="event.preventDefault(); alert('Thank you for reaching out to Cuccu Cafe!');">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="Enter your full name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email or Phone Number</label>
+            <input type="text" id="email" placeholder="Enter your email or phone" required />
+          </div>
+          <div class="form-group">
+            <label for="purpose">Inquiry Type</label>
+            <select id="purpose" style="width: 100%; padding: 0.75rem 1rem; border: 1px solid var(--border-color); border-radius: 8px; font-family: inherit;">
+              <option>General Inquiry</option>
+              <option>Events & Reservations</option>
+              <option>Career Application</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea id="message" rows="3" placeholder="Write your message here..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Send
